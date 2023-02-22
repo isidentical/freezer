@@ -1,0 +1,6 @@
+hooks:
+  - id: jokes
+    path: misc/joke.py:get_joke
+
+  - id: text-to-image
+    path: ai/stable_diffusion.py:run_model
